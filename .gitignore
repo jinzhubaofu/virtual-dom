@@ -1,0 +1,4 @@
+node_modules
+*.log
+.Ds_Store
+lib

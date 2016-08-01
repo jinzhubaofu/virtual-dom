@@ -1,0 +1,37 @@
+{
+  "name": "virtual-dom",
+  "version": "1.0.0",
+  "description": "virtual dom",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "flow": "flow check src",
+    "build": "gulp",
+    "watch-build": "gulp watch"
+  },
+  "keywords": [
+    "virtual-dom"
+  ],
+  "author": "leon <ludafa@outlook.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.11.4",
+    "babel-plugin-syntax-flow": "^6.8.0",
+    "babel-plugin-syntax-object-rest-spread": "^6.8.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.11.5",
+    "babel-plugin-transform-flow-strip-types": "^6.8.0",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "flow-bin": "^0.30.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
+  },
+  "babel": {
+    "plugins": [
+      "transform-es2015-modules-commonjs",
+      "transform-flow-strip-types",
+      "syntax-flow",
+      "syntax-object-rest-spread",
+      "transform-object-rest-spread"
+    ]
+  }
+}
